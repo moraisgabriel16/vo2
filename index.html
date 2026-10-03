@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>VO2 English | Fale inglês desde a primeira aula, em Iperó, SP</title>
-<meta name="description" content="VO2 English, em Iperó, SP: aulas de inglês presenciais e online com a técnica T.AR.G.E.T. Fale desde a primeira aula.">
+<title>VO2 English | Aulas de inglês personalizadas em Iperó, SP</title>
+<meta name="description" content="Aulas de inglês 100% personalizadas, individuais, em grupo e para empresas, em Iperó, SP, presencial ou online. Peça seu plano pelo WhatsApp.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,700..900&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
@@ -70,34 +70,148 @@ footer{background:var(--black);color:var(--on-black);padding:24px 0;font-size:14
 footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 @media (max-width:760px){nav a:not(.btn){display:none}.split{grid-template-columns:1fr}section{padding:56px 0}.hero{padding:48px 0 56px}.hero-grid{grid-template-columns:1fr}.mark.big{width:150px;order:-1}}
 @media (prefers-reduced-motion:reduce){.btn{transition:none}html{scroll-behavior:auto}}
+
+/* ---- refinamento visual ---- */
+header{border-bottom:3px solid var(--red)}
+.hero{position:relative;overflow:hidden;padding:84px 0 92px}
+.hero::before{content:"";position:absolute;right:-6%;top:0;bottom:0;width:50%;background:var(--red);clip-path:polygon(30% 0,100% 0,100% 100%,0 100%)}
+.hero::after{content:"";position:absolute;right:46%;top:0;bottom:0;width:14%;background:radial-gradient(circle,#fff 2px,transparent 3px) 0 0/16px 16px;opacity:.14;transform:skewX(-14deg)}
+.hero .wrap{position:relative;z-index:1}
+.mark.big{filter:drop-shadow(0 18px 30px rgba(0,0,0,.45));transform:rotate(-6deg)}
+.hero h1{font-size:clamp(48px,9.4vw,112px);line-height:.92}
+.hero p{font-size:clamp(18px,2.2vw,22px);line-height:1.5}
+.btn{border-radius:4px;padding:16px 28px;letter-spacing:.02em;box-shadow:0 6px 0 rgba(0,0,0,.28)}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 0 rgba(0,0,0,.28)}
+.btn.ghost{box-shadow:none}
+.facts{gap:0;border-top:0;margin-top:56px}
+.facts div{padding:20px 22px;background:rgba(255,255,255,.06);border-left:4px solid var(--red);opacity:1;font-size:15px;line-height:1.4}
+.facts div+div{margin-left:0}
+.facts b{font-size:clamp(22px,2.6vw,28px);color:#fff;margin-bottom:6px}
+.eyebrow{font:700 13px/1 Inter,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:var(--red);margin:0 0 14px;display:flex;align-items:center;gap:12px}
+.eyebrow::before{content:"";width:34px;height:4px;background:var(--red)}
+section{padding:96px 0;position:relative;overflow:hidden}
+section .wrap{position:relative;z-index:1}
+h2{font-size:clamp(38px,6vw,68px);line-height:.95}
+.lead{font-size:18px;line-height:1.65}
+.big-word{position:absolute;right:-2vw;top:14px;font:900 clamp(90px,19vw,230px)/1 Archivo,sans-serif;font-stretch:80%;color:transparent;-webkit-text-stroke:2px var(--line);pointer-events:none;user-select:none;white-space:nowrap}
+.split{gap:56px;margin-top:46px}
+.split p{font-size:18px;line-height:1.7}
+.compare{border-left:0;border-top:6px solid var(--red);box-shadow:0 14px 0 -8px var(--line);padding:30px 30px 18px}
+.compare li{padding:14px 0;font-size:18px}
+.compare li b{font:900 20px Archivo,sans-serif;font-stretch:80%;text-transform:uppercase;margin-bottom:2px}
+.chips{gap:12px;margin-top:40px}
+.chips li{padding:14px 20px;font-size:17px;border-radius:4px;border-width:2px}
+.chips li.hl{flex:1 1 280px;font:900 24px/1.05 Archivo,sans-serif;font-stretch:80%;text-transform:uppercase;padding:30px 24px;box-shadow:0 8px 0 rgba(0,0,0,.25)}
+.contact{clip-path:polygon(0 56px,100% 0,100% 100%,0 100%);padding:150px 0 96px;margin-top:-56px}
+.contact .eyebrow{color:#fff}.contact .eyebrow::before{background:#fff}
+.ch{border-radius:4px;padding:22px;background:rgba(0,0,0,.14);transition:background .15s}
+a.ch:hover{background:rgba(0,0,0,.3)}
+.ch strong{font-size:19px}
+@media (max-width:760px){
+ section{padding:64px 0}
+ .hero{padding:44px 0 56px}
+ .hero::before{width:90%;height:300px;bottom:auto;clip-path:polygon(35% 0,100% 0,100% 100%,0 100%)}
+ .hero::after{display:none}
+ .mark.big{transform:rotate(-6deg);width:130px}
+ .big-word{font-size:34vw;top:6px}
+ .contact{padding:120px 0 64px}
+}
+
+/* ---- captação ---- */
+.strip{background:var(--red);color:#fff;font:700 12px/1 Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase}
+.strip .wrap{display:flex;justify-content:center;gap:28px;padding-top:9px;padding-bottom:9px;flex-wrap:wrap}
+header{border-bottom:3px solid var(--red)}
+nav a.tel{font-weight:700;opacity:1;white-space:nowrap}
+.tag{font:700 13px/1 Inter,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#fff;opacity:.9;margin:0 0 20px}
+.hero-grid{grid-template-columns:1fr;gap:36px;align-items:center}
+.mark.big{display:none}
+.hero h1{font-size:clamp(44px,7vw,88px);max-width:13ch}
+.hero p.sub{max-width:31em}
+.card{background:var(--bg);color:var(--ink);border-radius:8px;padding:28px;box-shadow:0 22px 50px rgba(0,0,0,.4);border-top:6px solid var(--black)}
+.card h2{font-size:30px;max-width:none;line-height:1}
+.card>p{margin:10px 0 16px;color:var(--muted);font-size:15px;line-height:1.5}
+.card label{display:block;font:700 13px Inter,sans-serif;margin:0 0 12px}
+.card input,.card select{display:block;width:100%;margin-top:5px;padding:13px 14px;font:400 16px Inter,sans-serif;color:var(--ink);background:var(--surface);border:2px solid var(--line);border-radius:4px}
+.card input:focus,.card select:focus{border-color:var(--red);outline:0}
+.card input.bad{border-color:var(--red)}
+.card .btn{width:100%;border:0;cursor:pointer;margin-top:6px;font-family:inherit}
+.card small{display:block;margin-top:12px;color:var(--muted);font-size:13px;text-align:center}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px;margin-top:40px}
+.fmt{background:var(--surface);border-top:6px solid var(--red);padding:28px;display:flex;flex-direction:column}
+.fmt h3{font-size:30px;margin-bottom:12px}
+.fmt p{margin:0 0 20px;color:var(--muted);flex:1}
+.fmt a{font-weight:700;color:var(--red);text-decoration:none}
+.fmt a:hover{text-decoration:underline}
+.wa{position:fixed;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:9;width:58px;height:58px;border-radius:50%;background:#25D366;display:grid;place-items:center;box-shadow:0 8px 22px rgba(0,0,0,.35)}
+.wa svg{width:32px;height:32px}
+@media (min-width:900px){.hero-grid{grid-template-columns:1.1fr .9fr}}
+@media (max-width:980px){nav a.tel{display:none}}
+@media (max-width:760px){.strip span:nth-child(n+2){display:none}.hero::before{height:100%;opacity:.0}.card{padding:22px}}
+
+/* ---- ajuste faixa de destaques ---- */
+.facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-top:56px;border:0}
+.facts div{background:#181818;border:1px solid #2c2c2c;border-left:4px solid var(--red);border-radius:4px;padding:20px 18px;font-size:15px;line-height:1.45;color:#d9d9d9;opacity:1;min-width:0}
+.facts b{font-size:clamp(17px,1.9vw,21px);line-height:1.1;color:#fff;margin-bottom:8px;overflow-wrap:anywhere;hyphens:auto}
+@media (max-width:900px){.facts{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:520px){.facts{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
-<header><div class="wrap bar">
-  <a class="logo" href="#topo"><svg class="mark" viewBox="0 0 200 200" role="img" aria-label="Logo VO2 English" xmlns="http://www.w3.org/2000/svg"><circle cx="100" cy="100" r="97" fill="#fff"/><circle cx="100" cy="100" r="92" fill="#0F0F0F"/><circle cx="100" cy="100" r="80" fill="#E3120B"/><path d="M38 66h19l14 44 14-44h19L80 140H62z" fill="#fff"/><circle cx="93" cy="132" r="8" fill="none" stroke="#fff" stroke-width="3"/><circle cx="93" cy="132" r="3" fill="#fff"/><rect x="104" y="58" width="68" height="84" rx="12" fill="#0F0F0F" stroke="#fff" stroke-width="4"/><path d="M118 80h34q8 0 8 8v10q0 8-8 8h-24q-8 0-8 8v12h40" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" transform="translate(-4 0) scale(.97 .97) translate(4 3)"/></svg><span>VO2<small>English</small></span></a>
-  <nav>
-    <a href="#metodo">Método</a><a href="#cursos">Cursos</a><a href="#contato">Contato</a>
-    <a class="btn" href="https://wa.me/5515997886756?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20as%20aulas%20da%20VO2%20English." target="_blank" rel="noopener">WhatsApp</a>
-  </nav>
-</div></header>
+<header>
+  <div class="strip"><div class="wrap"><span>Aulas 100% personalizadas</span><span>Individual · Grupo · Empresas</span><span>Local fixo em Iperó, SP + online</span></div></div>
+  <div class="wrap bar">
+    <a class="logo" href="#topo"><svg class="mark" viewBox="0 0 200 200" role="img" aria-label="Logo VO2 English" xmlns="http://www.w3.org/2000/svg"><circle cx="100" cy="100" r="97" fill="#fff"/><circle cx="100" cy="100" r="92" fill="#0F0F0F"/><circle cx="100" cy="100" r="80" fill="#E3120B"/><path d="M38 66h19l14 44 14-44h19L80 140H62z" fill="#fff"/><circle cx="93" cy="132" r="8" fill="none" stroke="#fff" stroke-width="3"/><circle cx="93" cy="132" r="3" fill="#fff"/><rect x="104" y="58" width="68" height="84" rx="12" fill="#0F0F0F" stroke="#fff" stroke-width="4"/><path d="M118 80h34q8 0 8 8v10q0 8-8 8h-24q-8 0-8 8v12h40" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" transform="translate(-4 0) scale(.97 .97) translate(4 3)"/></svg><span>VO2<small>English</small></span></a>
+    <nav>
+      <a href="#aulas">Aulas</a><a href="#metodo">Método</a><a href="#cursos">Cursos</a><a href="#contato">Contato</a>
+      <a class="tel" href="tel:+5515997886756">(15) 99788-6756</a>
+      <a class="btn" href="#plano">Quero meu plano</a>
+    </nav>
+  </div>
+</header>
 <main id="topo">
-  <div class="hero"><div class="wrap"><div class="hero-grid"><div>
-    <h1>Fale inglês desde a <span>primeira aula.</span></h1>
-    <p>Na VO2 você não fica perdido nem frustrado. A técnica T.AR.G.E.T usa a tecnologia a seu favor para você falar, e falar é o objetivo do inglês direto ao ponto.</p>
-    <div class="actions">
-      <a class="btn" href="https://wa.me/5515997886756?text=Ol%C3%A1!%20Quero%20agendar%20uma%20aula%20na%20VO2%20English." target="_blank" rel="noopener">Chamar no WhatsApp</a>
-      <a class="btn ghost" href="#metodo">Conhecer o método</a>
+  <div class="hero"><div class="wrap">
+  <div class="hero-grid">
+    <div class="hero-text">
+      <p class="tag">Escola de inglês · Iperó, SP · desde 2017</p>
+      <h1>Inglês <span>feito sob medida</span> para você falar.</h1>
+      <p class="sub">Todas as aulas são personalizadas, em grupo ou individuais, e a escola também atende empresas. Presencial em local fixo, em Iperó, ou online. Com a técnica T.AR.G.E.T, você fala desde a primeira aula.</p>
+      <div class="actions">
+        <a class="btn" href="https://wa.me/5515997886756?text=Ol%C3%A1%21%20Quero%20saber%20mais%20sobre%20as%20aulas%20da%20VO2%20English." target="_blank" rel="noopener">Falar no WhatsApp</a>
+        <a class="btn ghost" href="#aulas">Ver formatos de aula</a>
+      </div>
     </div>
-    </div><svg class="mark big" aria-hidden="true" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><circle cx="100" cy="100" r="97" fill="#fff"/><circle cx="100" cy="100" r="92" fill="#0F0F0F"/><circle cx="100" cy="100" r="80" fill="#E3120B"/><path d="M38 66h19l14 44 14-44h19L80 140H62z" fill="#fff"/><circle cx="93" cy="132" r="8" fill="none" stroke="#fff" stroke-width="3"/><circle cx="93" cy="132" r="3" fill="#fff"/><rect x="104" y="58" width="68" height="84" rx="12" fill="#0F0F0F" stroke="#fff" stroke-width="4"/><path d="M118 80h34q8 0 8 8v10q0 8-8 8h-24q-8 0-8 8v12h40" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" transform="translate(-4 0) scale(.97 .97) translate(4 3)"/></svg></div>
-    <div class="facts">
-      <div><b>Presencial e online</b>Aulas em Iperó, SP, e à distância</div>
-      <div><b>B2 a C1 em 1,5 ano</b>Tempo médio informado pela escola (escala CEFR)</div>
-      <div><b>Desde 2017</b>Ensinando inglês em Iperó</div>
-    </div>
-  </div></div>
+    <form class="card" id="plano" novalidate>
+      <h2>Receba seu plano personalizado</h2>
+      <p>Preencha em 20 segundos e continue a conversa no WhatsApp.</p>
+      <label>Seu nome<input name="nome" required autocomplete="name" placeholder="Como podemos te chamar?"></label>
+      <label>Seu WhatsApp<input name="tel" type="tel" required autocomplete="tel" inputmode="tel" placeholder="(15) 90000-0000"></label>
+      <label>Eu quero aulas<select name="tipo"><option>Individuais</option><option>Em grupo</option><option>Para minha empresa</option></select></label>
+      <label>Modalidade<select name="mod"><option>Presencial em Iperó</option><option>Online</option><option>Ainda não sei</option></select></label>
+      <button class="btn" type="submit">Quero meu plano personalizado</button>
+      <small>Você será levado ao WhatsApp da escola. Sem compromisso.</small>
+    </form>
+  </div>
+  <div class="facts">
+    <div><b>100% personalizadas</b>Conteúdo e ritmo ajustados a cada aluno</div>
+    <div><b>Individual, grupo e empresas</b>O formato que combina com você</div>
+    <div><b>Local fixo + online</b>Atendimento presencial em Iperó, SP</div>
+    <div><b>B2 a C1 em 1,5 ano</b>Tempo médio informado pela escola (CEFR)</div>
+  </div>
+</div></div>
 
-  <section id="metodo"><div class="wrap">
-    <h2>Método T.AR.G.E.T</h2>
+<section id="aulas"><div class="wrap">
+  <p class="eyebrow">01 · Formatos</p>
+  <h2>Qual aula é a sua?</h2>
+  <p class="lead">Em qualquer formato, nada de aula genérica: o conteúdo parte do seu objetivo e do seu nível.</p>
+  <div class="cards">
+    <article class="fmt"><h3>Individual</h3><p>Aula desenhada para o seu objetivo, nível e rotina. Foco total em você e no seu ritmo.</p><a href="https://wa.me/5515997886756?text=Ol%C3%A1%21%20Tenho%20interesse%20em%20aulas%20individuais%20na%20VO2%20English." target="_blank" rel="noopener">Quero aula individual →</a></article>
+    <article class="fmt"><h3>Em grupo</h3><p>Aprenda com outras pessoas, com conteúdo personalizado também para o grupo.</p><a href="https://wa.me/5515997886756?text=Ol%C3%A1%21%20Tenho%20interesse%20em%20aulas%20em%20grupo%20na%20VO2%20English." target="_blank" rel="noopener">Quero aula em grupo →</a></article>
+    <article class="fmt"><h3>Para empresas</h3><p>Inglês para a sua equipe, com conteúdo ajustado às necessidades e à rotina da empresa.</p><a href="https://wa.me/5515997886756?text=Ol%C3%A1%21%20Gostaria%20de%20uma%20proposta%20de%20aulas%20de%20ingl%C3%AAs%20para%20a%20minha%20empresa." target="_blank" rel="noopener">Pedir proposta →</a></article>
+  </div>
+</div></section>
+
+<section id="metodo" class="alt"><div class="wrap">
+    <div class="big-word" aria-hidden="true">T.AR.G.E.T</div><p class="eyebrow">02 · Método</p><h2>Método T.AR.G.E.T</h2>
     <p class="lead">Criado pelo professor da escola. A sigla vem de Triggering Auto Response with Gadgets Technique, em tradução livre, gatilhos de resposta automática usando técnicas com uso de aparelhos.</p>
     <div class="split">
       <div>
@@ -107,15 +221,15 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
       <div class="compare">
         <h3>Como você estuda</h3>
         <ul>
-          <li><b>Presencial</b>Aulas em Iperó, SP</li>
+          <li><b>Presencial</b>Local fixo de atendimento em Iperó, SP</li>
           <li><b>Online</b>Ensino à distância com o mesmo método</li>
         </ul>
       </div>
     </div>
   </div></section>
 
-  <section id="cursos" class="alt"><div class="wrap">
-    <h2>Preparação e especialidades</h2>
+  <section id="cursos"><div class="wrap">
+    <p class="eyebrow">03 · Cursos</p><h2>Preparação e especialidades</h2>
     <p class="lead">Além do inglês para conversação, a escola trabalha áreas que fazem diferença para quem quer certificação ou mais precisão no idioma.</p>
     <ul class="chips">
       <li class="hl">Preparatório TOEFL ITP</li>
@@ -131,8 +245,8 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
   </div></section>
 
   <section id="contato" class="contact"><div class="wrap">
-    <h2>Vamos falar inglês?</h2>
-    <p class="lead">Chame a VO2 English, conte seu objetivo e tire dúvidas sobre horários e turmas.</p>
+    <p class="eyebrow">04 · Contato</p><h2>Vamos falar inglês?</h2>
+    <p class="lead">Chame a VO2 English, conte seu objetivo e tire dúvidas sobre horários, turmas e o local de atendimento em Iperó, SP.</p>
     <div class="ch-grid">
       <a class="ch" href="https://wa.me/5515997886756" target="_blank" rel="noopener"><span>WhatsApp</span><strong>+55 15 99788-6756</strong></a>
       <a class="ch" href="mailto:Vo2english@hotmail.com"><span>E-mail</span><strong>Vo2english@hotmail.com</strong></a>
@@ -143,5 +257,15 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
   </div></section>
 </main>
 <footer><div class="wrap"><span>© 2026 VO2 English</span><span>Iperó, SP</span></div></footer>
+<a class="wa" href="https://wa.me/5515997886756" target="_blank" rel="noopener" aria-label="Falar no WhatsApp"><svg viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M4 3h16a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H9.500L5 21.500V18H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"/><circle cx="8" cy="10.500" r="1.300" fill="#25D366"/><circle cx="12" cy="10.500" r="1.300" fill="#25D366"/><circle cx="16" cy="10.500" r="1.300" fill="#25D366"/></svg></a>
+<script>
+document.getElementById("plano").addEventListener("submit",function(e){
+  e.preventDefault();var f=e.target,ok=true;
+  [f.nome,f.tel].forEach(function(i){var bad=!i.value.trim();i.classList.toggle("bad",bad);if(bad)ok=false;});
+  if(!ok){(f.nome.value.trim()?f.tel:f.nome).focus();return;}
+  var m="Olá! Meu nome é "+f.nome.value.trim()+". Quero aulas "+f.tipo.value.toLowerCase()+", modalidade: "+f.mod.value.toLowerCase()+". Meu WhatsApp: "+f.tel.value.trim()+". Gostaria de receber meu plano personalizado.";
+  var a=document.createElement("a");a.href="https://wa.me/5515997886756?text="+encodeURIComponent(m);a.target="_blank";a.rel="noopener";document.body.appendChild(a);a.click();a.remove();
+});
+</script>
 </body>
 </html>
